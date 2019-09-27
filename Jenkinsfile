@@ -93,7 +93,7 @@ pipeline {
 	}
 	steps {
 	unstash 'Source'
-	sh "'${mvnHome}/bin/mvn' clean package"
+	sh "'${mvnHOME}/bin/mvn' clean package"
 	}
 	post {
 	always {

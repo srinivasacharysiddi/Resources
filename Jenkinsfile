@@ -39,7 +39,7 @@ pipeline {
 	label 'Slave'
 	}
 	steps {
-	sh "'${mvnHome}/bin/mvn' clean package"	
+	sh "'${mvnHOME}/bin/mvn' clean package"	
 	}
 	post {
 	always {

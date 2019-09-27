@@ -6,7 +6,7 @@ def remote = [:]
     	remote.password = 'vagrant'
     	remote.allowAnyHosts = true
 pipeline {
-	agent none {
+	agent none 
 	stages {
 	//def mvnHOME
 	stage ('Preparation') {
@@ -102,6 +102,5 @@ pipeline {
 	}
 	}
 
-	}
 	}
 }
